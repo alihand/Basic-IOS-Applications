@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DateApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The day was a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GK-FI-9cH">
+                                <rect key="frame" x="47" y="564" width="320" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlM-rq-h3h">
+                                <rect key="frame" x="47" y="642" width="320" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="wfz-DL-8wd">
+                                <rect key="frame" x="47" y="340" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="559490045.95728004">
+                                    <!--2018-09-24 13:54:05 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="didChangeDate:" destination="BYZ-38-t0r" eventType="valueChanged" id="hmB-QL-afT"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OlM-rq-h3h" firstAttribute="trailing" secondItem="3GK-FI-9cH" secondAttribute="trailing" id="32V-CI-3lN"/>
+                            <constraint firstItem="OlM-rq-h3h" firstAttribute="top" secondItem="3GK-FI-9cH" secondAttribute="bottom" constant="57.5" id="8iw-mP-XkT"/>
+                            <constraint firstItem="3GK-FI-9cH" firstAttribute="top" secondItem="wfz-DL-8wd" secondAttribute="bottom" constant="8" id="IDd-Jw-qlu"/>
+                            <constraint firstItem="OlM-rq-h3h" firstAttribute="centerX" secondItem="3GK-FI-9cH" secondAttribute="centerX" id="Lyr-6z-NWm"/>
+                            <constraint firstItem="3GK-FI-9cH" firstAttribute="trailing" secondItem="wfz-DL-8wd" secondAttribute="trailing" id="Mg8-KW-fmw"/>
+                            <constraint firstItem="3GK-FI-9cH" firstAttribute="leading" secondItem="wfz-DL-8wd" secondAttribute="trailing" constant="-320" id="RFl-ot-OAA"/>
+                            <constraint firstItem="wfz-DL-8wd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ixz-qd-9hW"/>
+                            <constraint firstItem="wfz-DL-8wd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jPP-As-rOY"/>
+                            <constraint firstItem="3GK-FI-9cH" firstAttribute="centerX" secondItem="wfz-DL-8wd" secondAttribute="centerX" id="nVY-YO-Xt2"/>
+                            <constraint firstItem="OlM-rq-h3h" firstAttribute="leading" secondItem="3GK-FI-9cH" secondAttribute="leading" id="npE-9S-DoY"/>
+                            <constraint firstItem="3GK-FI-9cH" firstAttribute="leading" secondItem="wfz-DL-8wd" secondAttribute="leading" id="sHK-EW-aBh"/>
+                            <constraint firstItem="OlM-rq-h3h" firstAttribute="leading" secondItem="3GK-FI-9cH" secondAttribute="trailing" constant="-320" id="wT2-Cd-y8M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="anotherLabel" destination="OlM-rq-h3h" id="iaN-g4-QwC"/>
+                        <outlet property="resultLabel" destination="3GK-FI-9cH" id="lT9-Ao-zKv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+</document>

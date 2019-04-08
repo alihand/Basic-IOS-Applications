@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3C153CA21D77B0D00ECD2E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C153C921D77B0D00ECD2E7 /* AppDelegate.swift */; };
+		E3C153CC21D77B0D00ECD2E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C153CB21D77B0D00ECD2E7 /* ViewController.swift */; };
+		E3C153CF21D77B0D00ECD2E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C153CD21D77B0D00ECD2E7 /* Main.storyboard */; };
+		E3C153D121D77B0E00ECD2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C153D021D77B0E00ECD2E7 /* Assets.xcassets */; };
+		E3C153D421D77B0E00ECD2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C153D221D77B0E00ECD2E7 /* LaunchScreen.storyboard */; };
+		E3C153DF21D77B0F00ECD2E7 /* Truth_or_DareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C153DE21D77B0F00ECD2E7 /* Truth_or_DareTests.swift */; };
+		E3C153EA21D77B0F00ECD2E7 /* Truth_or_DareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C153E921D77B0F00ECD2E7 /* Truth_or_DareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3C153DB21D77B0F00ECD2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C153BE21D77B0D00ECD2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C153C521D77B0D00ECD2E7;
+			remoteInfo = "Truth or Dare";
+		};
+		E3C153E621D77B0F00ECD2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C153BE21D77B0D00ECD2E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C153C521D77B0D00ECD2E7;
+			remoteInfo = "Truth or Dare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3C153C621D77B0D00ECD2E7 /* Truth or Dare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth or Dare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C153C921D77B0D00ECD2E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3C153CB21D77B0D00ECD2E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3C153CE21D77B0D00ECD2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3C153D021D77B0E00ECD2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C153D321D77B0E00ECD2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3C153D521D77B0E00ECD2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C153DA21D77B0F00ECD2E7 /* Truth or DareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truth or DareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C153DE21D77B0F00ECD2E7 /* Truth_or_DareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truth_or_DareTests.swift; sourceTree = "<group>"; };
+		E3C153E021D77B0F00ECD2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C153E521D77B0F00ECD2E7 /* Truth or DareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truth or DareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C153E921D77B0F00ECD2E7 /* Truth_or_DareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truth_or_DareUITests.swift; sourceTree = "<group>"; };
+		E3C153EB21D77B0F00ECD2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3C153C321D77B0D00ECD2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153D721D77B0F00ECD2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153E221D77B0F00ECD2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3C153BD21D77B0D00ECD2E7 = {
+			isa = PBXGroup;
+			children = (
+				E3C153C821D77B0D00ECD2E7 /* Truth or Dare */,
+				E3C153DD21D77B0F00ECD2E7 /* Truth or DareTests */,
+				E3C153E821D77B0F00ECD2E7 /* Truth or DareUITests */,
+				E3C153C721D77B0D00ECD2E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3C153C721D77B0D00ECD2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3C153C621D77B0D00ECD2E7 /* Truth or Dare.app */,
+				E3C153DA21D77B0F00ECD2E7 /* Truth or DareTests.xctest */,
+				E3C153E521D77B0F00ECD2E7 /* Truth or DareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3C153C821D77B0D00ECD2E7 /* Truth or Dare */ = {
+			isa = PBXGroup;
+			children = (
+				E3C153C921D77B0D00ECD2E7 /* AppDelegate.swift */,
+				E3C153CB21D77B0D00ECD2E7 /* ViewController.swift */,
+				E3C153CD21D77B0D00ECD2E7 /* Main.storyboard */,
+				E3C153D021D77B0E00ECD2E7 /* Assets.xcassets */,
+				E3C153D221D77B0E00ECD2E7 /* LaunchScreen.storyboard */,
+				E3C153D521D77B0E00ECD2E7 /* Info.plist */,
+			);
+			path = "Truth or Dare";
+			sourceTree = "<group>";
+		};
+		E3C153DD21D77B0F00ECD2E7 /* Truth or DareTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C153DE21D77B0F00ECD2E7 /* Truth_or_DareTests.swift */,
+				E3C153E021D77B0F00ECD2E7 /* Info.plist */,
+			);
+			path = "Truth or DareTests";
+			sourceTree = "<group>";
+		};
+		E3C153E821D77B0F00ECD2E7 /* Truth or DareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C153E921D77B0F00ECD2E7 /* Truth_or_DareUITests.swift */,
+				E3C153EB21D77B0F00ECD2E7 /* Info.plist */,
+			);
+			path = "Truth or DareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3C153C521D77B0D00ECD2E7 /* Truth or Dare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C153EE21D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or Dare" */;
+			buildPhases = (
+				E3C153C221D77B0D00ECD2E7 /* Sources */,
+				E3C153C321D77B0D00ECD2E7 /* Frameworks */,
+				E3C153C421D77B0D00ECD2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truth or Dare";
+			productName = "Truth or Dare";
+			productReference = E3C153C621D77B0D00ECD2E7 /* Truth or Dare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3C153D921D77B0F00ECD2E7 /* Truth or DareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C153F121D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or DareTests" */;
+			buildPhases = (
+				E3C153D621D77B0F00ECD2E7 /* Sources */,
+				E3C153D721D77B0F00ECD2E7 /* Frameworks */,
+				E3C153D821D77B0F00ECD2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C153DC21D77B0F00ECD2E7 /* PBXTargetDependency */,
+			);
+			name = "Truth or DareTests";
+			productName = "Truth or DareTests";
+			productReference = E3C153DA21D77B0F00ECD2E7 /* Truth or DareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3C153E421D77B0F00ECD2E7 /* Truth or DareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C153F421D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or DareUITests" */;
+			buildPhases = (
+				E3C153E121D77B0F00ECD2E7 /* Sources */,
+				E3C153E221D77B0F00ECD2E7 /* Frameworks */,
+				E3C153E321D77B0F00ECD2E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C153E721D77B0F00ECD2E7 /* PBXTargetDependency */,
+			);
+			name = "Truth or DareUITests";
+			productName = "Truth or DareUITests";
+			productReference = E3C153E521D77B0F00ECD2E7 /* Truth or DareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3C153BE21D77B0D00ECD2E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gökçe Demir";
+				TargetAttributes = {
+					E3C153C521D77B0D00ECD2E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E3C153D921D77B0F00ECD2E7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E3C153C521D77B0D00ECD2E7;
+					};
+					E3C153E421D77B0F00ECD2E7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E3C153C521D77B0D00ECD2E7;
+					};
+				};
+			};
+			buildConfigurationList = E3C153C121D77B0D00ECD2E7 /* Build configuration list for PBXProject "Truth or Dare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3C153BD21D77B0D00ECD2E7;
+			productRefGroup = E3C153C721D77B0D00ECD2E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3C153C521D77B0D00ECD2E7 /* Truth or Dare */,
+				E3C153D921D77B0F00ECD2E7 /* Truth or DareTests */,
+				E3C153E421D77B0F00ECD2E7 /* Truth or DareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3C153C421D77B0D00ECD2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C153D421D77B0E00ECD2E7 /* LaunchScreen.storyboard in Resources */,
+				E3C153D121D77B0E00ECD2E7 /* Assets.xcassets in Resources */,
+				E3C153CF21D77B0D00ECD2E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153D821D77B0F00ECD2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153E321D77B0F00ECD2E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3C153C221D77B0D00ECD2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C153CC21D77B0D00ECD2E7 /* ViewController.swift in Sources */,
+				E3C153CA21D77B0D00ECD2E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153D621D77B0F00ECD2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C153DF21D77B0F00ECD2E7 /* Truth_or_DareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C153E121D77B0F00ECD2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C153EA21D77B0F00ECD2E7 /* Truth_or_DareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3C153DC21D77B0F00ECD2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C153C521D77B0D00ECD2E7 /* Truth or Dare */;
+			targetProxy = E3C153DB21D77B0F00ECD2E7 /* PBXContainerItemProxy */;
+		};
+		E3C153E721D77B0F00ECD2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C153C521D77B0D00ECD2E7 /* Truth or Dare */;
+			targetProxy = E3C153E621D77B0F00ECD2E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3C153CD21D77B0D00ECD2E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C153CE21D77B0D00ECD2E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3C153D221D77B0E00ECD2E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C153D321D77B0E00ECD2E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3C153EC21D77B0F00ECD2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3C153ED21D77B0F00ECD2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3C153EF21D77B0F00ECD2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or Dare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alihandemir.Truth-or-Dare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3C153F021D77B0F00ECD2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or Dare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alihandemir.Truth-or-Dare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3C153F221D77B0F00ECD2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or DareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokcedemir.Truth-or-DareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truth or Dare.app/Truth or Dare";
+			};
+			name = Debug;
+		};
+		E3C153F321D77B0F00ECD2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or DareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokcedemir.Truth-or-DareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truth or Dare.app/Truth or Dare";
+			};
+			name = Release;
+		};
+		E3C153F521D77B0F00ECD2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or DareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokcedemir.Truth-or-DareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truth or Dare";
+			};
+			name = Debug;
+		};
+		E3C153F621D77B0F00ECD2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Truth or DareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokcedemir.Truth-or-DareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Truth or Dare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3C153C121D77B0D00ECD2E7 /* Build configuration list for PBXProject "Truth or Dare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C153EC21D77B0F00ECD2E7 /* Debug */,
+				E3C153ED21D77B0F00ECD2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C153EE21D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or Dare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C153EF21D77B0F00ECD2E7 /* Debug */,
+				E3C153F021D77B0F00ECD2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C153F121D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or DareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C153F221D77B0F00ECD2E7 /* Debug */,
+				E3C153F321D77B0F00ECD2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C153F421D77B0F00ECD2E7 /* Build configuration list for PBXNativeTarget "Truth or DareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C153F521D77B0F00ECD2E7 /* Debug */,
+				E3C153F621D77B0F00ECD2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3C153BE21D77B0D00ECD2E7 /* Project object */;
+}
